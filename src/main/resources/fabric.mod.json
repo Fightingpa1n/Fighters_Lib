@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fightingpainter.lib.Main"
+			"net.fightingpainter.lib.Lib"
 		],
 		"fabric-datagen": [
 			"net.fightingpainter.lib.DataGenerator"
