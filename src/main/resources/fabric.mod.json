@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fightingpainter.lib.FightersLib"
+			"net.fightingpainter.lib.Main"
 		],
 		"fabric-datagen": [
-			"net.fightingpainter.lib.FightersLibDataGenerator"
+			"net.fightingpainter.lib.DataGenerator"
 		]
 	},
 	"mixins": [
