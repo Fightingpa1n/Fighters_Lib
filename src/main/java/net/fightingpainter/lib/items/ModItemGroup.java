@@ -21,17 +21,17 @@ public class ModItemGroup{
     //list of Item objects
     private Item[] items = new Item[0];
 
-    ModItemGroup(Identifier id, Item icon){
+    public ModItemGroup(Identifier id, Item icon){
         this.id = id;
         this.icon = icon;
     }
 
-    ModItemGroup(String group_id, Item icon){
+    public ModItemGroup(String group_id, Item icon){
         this.id = new Identifier(Lib.MOD_ID, group_id);
         this.icon = icon;
     }
 
-    ModItemGroup(String group_id, String mod_id, Item icon){
+    public ModItemGroup(String group_id, String mod_id, Item icon){
         this.id = new Identifier(mod_id, group_id);
         this.icon = icon;
     }
